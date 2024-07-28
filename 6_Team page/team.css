@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-color: white;
+    /* z-index: 10; */
+}
+
+.uppernavbar{
+    height: 40px;
+    width: 100%;
+    background-color: dimgray;
+    display: flex;
+}
+
+.upperRightSection{
+    height: 40px;
+    width: 20%;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    background-color:#fff700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.upperLeftSection{
+    height: 40px;
+    width: 20%;
+    /* background-color: rgb(120, 189, 30); */
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+
+}
+#text{
+    padding-left: 10px;
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icon{
+    margin-left: 2px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.lowernabvar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    /* background-color: chartreuse; */
+}
+
+.lowerLeftSection{
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+#lowerLeft{
+    font-size: 42px;
+    padding-left: 30px;
+}
+
+.lowerRightSection{
+    height: 70px;
+    width: 40%;
+    /* background-color: chocolate; */
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anker{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    font-weight:400;
+}
+
+.icon:hover{
+    font-size: 140%;
+
+}
+
+.anker:hover{
+    font-size: 180%;
+}
+
+.Team{
+    height: 20rem;
+    width: 100%;
+    background-color: #fff700;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading9{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+
+}

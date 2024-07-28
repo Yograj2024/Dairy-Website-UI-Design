@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-color: white;
+}
+
+.uppernavbar{
+    height: 40px;
+    width: 100%;
+    background-color: #cbc3c3;
+    display: flex;
+}
+
+.upperRightSection{
+    height: 40px;
+    width: 20%;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    background-color:#fff700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.upperLeftSection{
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+#text{
+    padding-left: 10px;
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icon{
+    margin-left: 2px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.lowernabvar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+.lowerLeftSection{
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+#lowerLeft{
+    font-size: 42px;
+    padding-left: 30px;
+}
+
+.lowerRightSection{
+    height: 70px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anker{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    font-weight:400;
+}
+
+.icon:hover{
+    font-size: 140%;
+}
+
+.anker:hover{
+    font-size: 180%;
+}
+.contact_text{
+    font-size: 21px;
+    text-align: center;
+    color: green;
+}
+.contact_text>h1{
+    font-family:serif;
+    color: black;
+}
+
+.line1,.line2{
+    height: 2px;
+    width: 70px;
+    background-color: green;
+}
+.line3,.line4{
+    height: 2px;
+    width: 90px;
+    background-color: green;
+}
+.line1{
+    position: relative;
+    top: 11px;
+    left: 520px;
+}
+.line2{
+    position: relative;
+    left: 760px;
+    top: 11px;
+}
+.line3{
+    position: relative;
+    left: 500px;
+    bottom: 6px;
+}
+.line4{
+    position: relative;
+    left: 760px;
+    bottom: 6px;
+}
+.contact_area{
+    width: 94%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact_form{
+    padding: 40px;
+    position: relative;
+    animation-name: yogi;
+    animation-duration:3s;
+    animation-timing-function: ease-in;
+    transition-duration: 2s
+}
+
+@keyframes yogi{
+    0%{
+        visibility: visible;
+        display: block;
+        top: 5rem;
+    }
+
+}
+.inputs{
+    height: 40px;
+    width: 220px;
+    border: 1px solid grey;
+}
+hr{
+    color: red;
+}
+
+#input2{
+    margin-left: 10px;
+}
+#input3{
+    margin-top: 20px;
+}
+#input4{
+    margin-top: 20px;
+    border: 1px solid grey;
+}
+.message>textarea{
+    resize: vertical;
+}
+.send-mess>button{
+    margin: 20px 0 0 0;
+    border-radius:50rem;
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+    border: none;
+    background-color: #fff700;
+}
+.contact_detail{
+    padding: 40px;
+    border:border-box;
+}
+.contact-para{
+    text-align: justify;
+}
+.office,.number,.mail{
+    display: flex;
+    margin-top: 20px;
+}
+.uppericon{
+    background-color:yellow;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-bottom: 14px;
+}
+.head{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 0 0 25px;
+}
+.detail{
+    margin: 0 0 0 25px;
+}
+.upperBottem{
+    box-sizing: border-box;
+    height: 350px;
+    padding: 30px 50px 0 50px; 
+    width: 100%;
+    margin-top: 6rem;
+    color: white;
+    background-color: #3f8431;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.our-mail,.contact-number,.our-office2{ 
+    display: flex;
+    margin-top: 20px ;
+}
+.icon-row{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(5,30px);
+    column-gap: 20px;
+}
+#youtube2,#link2,#face2,#twit2,#insta2{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #fff700;
+    align-items: center;
+    justify-content: center;
+}
+.quick-links>ul{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.quick-links>ul>li{
+    display: flex;
+    align-items: center;
+}
+.Boteem-box{
+    box-sizing: border-box;
+    padding: 0 0 0 100px;
+}
+#site-name,#creater_name{
+    color: green;
+}
+.bottom{
+    box-sizing: border-box;
+    padding: 0 30px 0 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #fff700;
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-color: white;
+}
+
+.uppernavbar{
+    height: 40px;
+    width: 100%;
+    background-color: #cbc3c3;
+    display: flex;
+}
+
+.upperRightSection{
+    height: 40px;
+    width: 20%;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    background-color:#fff700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.upperLeftSection{
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+#text{
+    padding-left: 10px;
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.icon{
+    margin-left: 2px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.lowernabvar{
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+.lowerLeftSection{
+    height: 70px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+#lowerLeft{
+    font-size: 42px;
+    padding-left: 30px;
+}
+
+.lowerRightSection{
+    height: 70px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.anker{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    font-weight:400;
+}
+
+.icon:hover{
+    font-size: 140%;
+}
+
+.anker:hover{
+    font-size: 180%;
+}
+
+.service{
+    height: 20rem;
+    width: 100%;
+    color: rgb(235, 235, 235);
+    background-color: #000000;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Project\ Images/bcg_cow_img.jpg);
+    background-repeat: no-repeat;
+    background-size:50% 20rem;
+    background-position: 50% -50px;
+}
+.service_anker_tag{
+    font-size: 21px;
+    text-decoration: none;
+    font-weight:400;
+    color: rgb(194, 194, 194);
+}
+
+.heading1{
+    filter: drop-shadow(2px 3px 5px grey);
+    font-size: 4rem;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+
+}
+.heading{
+    font-size: 18px;
+    margin: 30px 5px 0 5px;
+    text-align: center;
+    color: green;
+}
+big{
+    font-family: serif;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.line1{
+    height: 2px;
+    width: 70px;
+    position: relative;
+    top: 36px;
+    left:490px;
+    background-color: green ;
+}
+.line2{
+    height: 2px;
+    width: 90px;
+    position: relative;
+    top: 20px;
+    left: 471px;
+    background-color: green ;
+}
+.line3{
+    height: 2px;
+    width: 70px;
+    position: relative;
+    bottom: 18px;
+    left: 765px;
+    background-color: green ;
+}
+.line4{
+    height: 2px;
+    width: 90px;
+    position: relative;
+    bottom: 34px;
+    left: 765px;
+    background-color: green ;
+}
+.top{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.img_heading{
+    height: 500px;
+    width: 90%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: 500px ;
+    gap: 30px;
+    /* padding: 20px; */
+
+}
+.img{
+    height: 500px;
+    width: 500px;
+    background-image: url(../Project\ Images/benefits-banner.png);
+    background-size: cover;
+    /* box-shadow: 4px 4px 10px   yellow; */
+    /* border: 4px solid yellow; */
+    border-radius: 1%;
+}
+.heading2{
+    padding: 20px;
+}
+.heading2>h1{
+    margin: 30px 0 0 0;
+    font-weight: 600;
+    font-size: 38px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.heading2>p{
+    line-height: 20px;
+    margin-top: 10px;
+    word-spacing: 5px;
+}
+.heading2>ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.heading2>button{
+    height: 50px;
+    width: 120px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(40, 247, 109);
+    border-radius:2rem;
+    font-size: large;
+}
+.services_list{
+    height: 650px;
+    width: 93%;
+    margin: 1rem auto;
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.animal_selection{
+    /* background-color: #fff700; */
+    padding: 50px;
+}
+.Vegetables{
+    /* background-color: chartreuse; */
+    padding: 50px;
+}
+.healty_caltel{
+    /* background-color: aqua; */
+    padding: 15px;
+}
+.natural_product{
+    /* background-color: blueviolet; */
+    padding: 35px;
+}
+.Distribution{
+    /* background-color: burlywood; */
+    padding: 50px;
+}
+h4{
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 21px;
+
+    /* color: yellow; */
+}
+.icon>img{
+    height: 100px;
+    width: 100px;
+}
+.icon3{
+    background-image: url(../Project\ Images/production.jpg);
+    margin-left: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 155px;
+    width: 220px;
+}
+.icon4>img{
+    height: 120px;
+    width: 210px;
+}
+.icon6>img{
+    height: 100px;
+    width: 150px;
+}
+.upperBottem{
+    box-sizing: border-box;
+    height: 350px;
+    padding: 30px 50px 0 50px; 
+    width: 100%;
+    margin-top: 6rem;
+    color: white;
+    /* background-color: rgb(45, 65, 12); */
+    background-color: #3f8431;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.our-mail,.contact-number,.our-office2{ 
+    display: flex;
+    margin-top: 20px ;
+    /* color: #b8cfb4; */
+}
+.icon2{
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding-top: 7px;
+    /* color: #b8cfb4;                               */
+}
+.icon-row{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(5,30px);
+    column-gap: 20px;
+}
+#youtube,#link,#face,#twit,#insta{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #fff700;
+    /* color: rgb(0, 8, 255); */
+    align-items: center;
+    justify-content: center;
+}
+.quick-links>ul{
+    /* list-style: none; */
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.quick-links>ul>li{
+    display: flex;
+    align-items: center;
+}
+.Boteem-box{
+    box-sizing: border-box;
+    padding: 0 0 0 100px;
+}
+#site-name,#creater_name{
+    color: green;
+}
+.bottom{
+    box-sizing: border-box;
+    padding: 0 30px 0 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #fff700;
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+}
